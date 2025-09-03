@@ -264,33 +264,34 @@ window.addEventListener('scroll', () => {
     if (elementPosition1 <= window.innerHeight) {
         contentNumber.textContent = '01'
     }
-    if (elementPosition2 <= window.innerHeight) {
+    if (elementPosition2 < window.innerHeight) {
         contentNumber.textContent = '02'
     }
-    if (elementPosition3 <= window.innerHeight) {
+    if (elementPosition3 < window.innerHeight) {
         contentNumber.textContent = '03'
     }
-    if (elementPosition4 <= window.innerHeight) {
+    if (elementPosition4 < window.innerHeight) {
         contentNumber.textContent = '04'
     }
-    if (elementPosition5 <= window.innerHeight) {
+    if (elementPosition5 < window.innerHeight) {
         contentNumber.textContent = '05'
     }
-    if (elementPosition6 <= window.innerHeight) {
+    if (elementPosition6 < window.innerHeight) {
         contentNumber.textContent = '06'
     }
-    if (elementPosition7 <= window.innerHeight) {
+    if (elementPosition7 < window.innerHeight) {
         contentNumber.textContent = '07'
     }
-    if (elementPosition8 <= window.innerHeight) {
+    if (elementPosition8 < window.innerHeight) {
         contentNumber.textContent = '08'
     }
-    if (elementPosition9 <= window.innerHeight) {
+    if (elementPosition9 < window.innerHeight) {
         contentNumber.textContent = '09'
     }
 })
 
-// getProgress()
+
+
 
 
 
