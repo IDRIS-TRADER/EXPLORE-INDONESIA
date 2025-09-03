@@ -520,6 +520,7 @@ textarea {
     transition: var(--transition-duration);
     padding: 14px 18px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .content-fourth__arrows--left {
@@ -1929,4 +1930,5 @@ textarea {
         color: var(--color-red);
     }
 }
+
 
