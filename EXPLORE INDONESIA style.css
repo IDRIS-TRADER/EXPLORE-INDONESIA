@@ -1102,7 +1102,7 @@ textarea {
 
 .progress-container--icon1 {
     position: absolute;
-    top: 600px;
+    top: 500px;
     left: -5px;
     font-size: 16px;
     font-weight: 700;
@@ -1113,7 +1113,7 @@ textarea {
 
 .progress-container--icon2 {
     position: absolute;
-    top: 650px;
+    top: 550px;
     left: -5px;
     font-size: 16px;
     font-weight: 700;
@@ -1124,7 +1124,7 @@ textarea {
 
 .progress-container--icon3 {
     position: absolute;
-    top: 700px;
+    top: 600px;
     left: -5px;
     font-size: 16px;
     font-weight: 700;
@@ -1144,6 +1144,7 @@ textarea {
     .content-first__video {
         order: -1;
         width: 254px;
+        display: none;
     }
 
     .content-first__video--arrow {
@@ -1343,6 +1344,7 @@ textarea {
 
     .content-first__video {
         width: auto
+        display: block;
     }
 
     .content-first--container {
@@ -1927,3 +1929,4 @@ textarea {
         color: var(--color-red);
     }
 }
+
