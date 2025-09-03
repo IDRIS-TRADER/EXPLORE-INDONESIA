@@ -117,7 +117,7 @@ textarea {
 /* Стили */
 
 .header-fon {
-    background-image: url(./img/diego-gutierrez-NRn5rrBnH8w-unsplash\ 1.svg);
+    background-image: url(./img/diego-gutierrez-NRn5rrBnH8w-unsplash\ 1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -366,7 +366,7 @@ textarea {
 }
 
 .content-second-fon {
-    background-image: url(./img/Rectangle\ 13.svg);
+    background-image: url(./img/Rectangle\ 13.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -416,7 +416,7 @@ textarea {
 }
 
 .content-third-fon {
-    background: url(./img/Rectangle\ 11.svg),
+    background: url(./img/Rectangle\ 11.png),
         linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0) 100%);
     background-color: var(--color-blue);
     background-position: center center;
@@ -550,7 +550,7 @@ textarea {
 }
 
 .content-fifth-fon {
-    background-image: url(./img/ifan-bima-B04Xpnu5JQ4-unsplash\ 1.svg);
+    background-image: url(./img/ifan-bima-B04Xpnu5JQ4-unsplash\ 1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -688,7 +688,7 @@ textarea {
 }
 
 .content-seventh-fon {
-    background-image: url(./img/hugo-matilla-EFuCATqfblI-unsplash\ 1.svg);
+    background-image: url(./img/hugo-matilla-EFuCATqfblI-unsplash\ 1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
