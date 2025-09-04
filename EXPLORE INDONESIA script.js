@@ -252,43 +252,19 @@ function getProgress() {
 window.addEventListener('scroll', () => {
     getProgress()
 
-    const elementPosition1 = content1.getBoundingClientRect().top
-    const elementPosition2 = content2.getBoundingClientRect().top
-    const elementPosition3 = content3.getBoundingClientRect().top
-    const elementPosition4 = content4.getBoundingClientRect().top
-    const elementPosition5 = content5.getBoundingClientRect().top
-    const elementPosition6 = content6.getBoundingClientRect().top
-    const elementPosition7 = content7.getBoundingClientRect().top
-    const elementPosition8 = content8.getBoundingClientRect().top
-    const elementPosition9 = content9.getBoundingClientRect().top
-    if (elementPosition1 <= 0) {
-        contentNumber.textContent = '01'
+    const elements = [
+        content1, content2, content3, content4,
+        content5, content6, content7, content8, content9
+    ];
+    
+    for(let i = 0; i < elements.length; i++) {
+        const position = elements[i].getBoundingClientRect().top;
+        if (position < window.innerHeight) {
+            contentNumber.textContent = `0${i + 1}`
+        }
     }
-    if (elementPosition2 < window.innerHeight) {
-        contentNumber.textContent = '02'
-    }
-    if (elementPosition3 < window.innerHeight) {
-        contentNumber.textContent = '03'
-    }
-    if (elementPosition4 < window.innerHeight) {
-        contentNumber.textContent = '04'
-    }
-    if (elementPosition5 < window.innerHeight) {
-        contentNumber.textContent = '05'
-    }
-    if (elementPosition6 < window.innerHeight) {
-        contentNumber.textContent = '06'
-    }
-    if (elementPosition7 < window.innerHeight) {
-        contentNumber.textContent = '07'
-    }
-    if (elementPosition8 < window.innerHeight) {
-        contentNumber.textContent = '08'
-    }
-    if (elementPosition9 < window.innerHeight) {
-        contentNumber.textContent = '09'
-    }
-})
+});
+
 
 
 
