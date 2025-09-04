@@ -1890,6 +1890,18 @@ textarea {
     .footer--arrol-top {
         right: 50px;
     }
+
+    .progress-container--icon1 {
+        display: none;
+    }
+
+    .progress-container--icon2 {
+       display: none;
+    }
+
+    .progress-container--icon3 {
+       display: none;
+    }
 }
 
 
@@ -1930,5 +1942,6 @@ textarea {
         color: var(--color-red);
     }
 }
+
 
 
