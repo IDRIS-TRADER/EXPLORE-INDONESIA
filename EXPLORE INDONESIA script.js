@@ -261,7 +261,7 @@ window.addEventListener('scroll', () => {
     const elementPosition7 = content7.getBoundingClientRect().top
     const elementPosition8 = content8.getBoundingClientRect().top
     const elementPosition9 = content9.getBoundingClientRect().top
-    if (elementPosition1 <= window.innerHeight) {
+    if (elementPosition1 <= 0) {
         contentNumber.textContent = '01'
     }
     if (elementPosition2 < window.innerHeight) {
@@ -289,6 +289,7 @@ window.addEventListener('scroll', () => {
         contentNumber.textContent = '09'
     }
 })
+
 
 
 
