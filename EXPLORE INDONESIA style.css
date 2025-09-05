@@ -276,8 +276,6 @@ textarea {
     opacity: 0;
     transform: translateY(-50px);
     transition: var(--transition-duration);
-    position: relative;
-    z-index: 1;
 }
 
 .content-first--button {
@@ -1942,6 +1940,7 @@ textarea {
         color: var(--color-red);
     }
 }
+
 
 
 
